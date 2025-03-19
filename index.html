@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ibrahim Mammadli - Portfolio</title>
+    <meta property="og:title" content="Ibrahim Mammadli - Portfolio" />
+    <meta property="og:image" content="./assets/images/logo.png" />
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+  
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+    <!-- Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G1H2WJ7XH4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-G1H2WJ7XH4');
+    </script>
+  
+  </head>
+  
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpg" alt="Ibrahim Mammadli">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ibrahim Mammadli">Ibrahim Mammadli</h1>
+
+          <p class="title notranslate" id="motto"></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <ion-icon name="swap-vertical"></ion-icon>
+        </button>
+
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <img src="./assets/images/uni.png" alt="Other Icon" class="scaled-icon yellow-icon"/>  
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">University</p>
+              <address>Yildiz Technical University</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="hourglass"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Age</p>
+              <time id="age" class="counting-animation"></time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-sharp"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Istanbul Bagcilar,Turkey</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/nicefaa6waa" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ibrahim-mammadly/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/i.mammadly/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar notranslate">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="modal-container" data-modal-container>
+        <div class="overlay" data-overlay></div>
+        <button class="modal-close-btn" data-modal-close-btn>
+        </button>
+      </div>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+
+        <section class="about-text content-card">
+          <div id="expandable-section">
+            <p>
+              Hello! 👋 My name is Ibrahim, and I’m from Azerbaijan.  
+              I am an aspiring Data Analyst with a strong passion for artificial intelligence, machine learning, and data science.  
+              Since 2020, I have been programming in Python, and since 2022, I have been diving deep into AI.  
+              I have completed several challenging courses, including Harvard’s CS50X, CS50AI, and Google’s Advanced Data Science Certificate, among others.  
+              Currently, I am focusing on neural networks and real-world AI applications, with projects like SmartBudgetAI.
+            </p>
+            <div id="more" style="display: none;">
+              <p>
+                I’m continuously expanding my knowledge in AI, data analysis, and neural networks. My aim is to integrate these technologies to solve practical challenges.  
+                I also enjoy working on personal projects and expanding my skills, especially in financial management AI tools.
+              </p>
+          
+              <p>
+                One of my key strengths is my proficiency with various operating systems, particularly macOS and Linux. I have a deep understanding of system architecture, automation, and command-line interfaces.  
+                Working in these environments allows me to streamline processes, optimize workflows, and develop efficient solutions across different platforms.
+              </p>
+          
+              <p>
+                Outside of my professional interests, I love playing soccer and staying fit by working out regularly. Both activities help me maintain a healthy balance and give me the mental clarity to tackle complex challenges in my work.  
+                I believe that physical fitness and mental sharpness go hand in hand, and they’re essential for maintaining productivity and creativity.
+              </p>
+          
+              <p>
+                As someone who’s always eager to learn and innovate, I believe in the power of AI to change the world for the better.  
+                I am always looking for opportunities to collaborate, learn, and grow. If you have any exciting ideas or projects, feel free to reach out!
+              </p>
+          
+              <p>
+                I am passionate about technology, coding, and staying on top of the latest AI trends. I enjoy tackling complex problems, exploring new fields, and constantly pushing my own limits to improve.
+              </p>
+            </div>
+          </div>
+          <center> <button class="more" id="toggle-button" onclick="toggleText()">&darr; &nbsp; &nbsp; Show more &nbsp;
+              &nbsp; &darr;</button> </center>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Primary Focus</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ai.svg" alt="AI & ML Solutions" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & ML Solutions</h4>
+
+                <p class="service-item-text">
+                  Development of intelligent solutions using artificial intelligence and machine learning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-analystics.svg" alt="Data Analytics & Insights" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics & Insights</h4>
+
+                <p class="service-item-text">
+                  Analyze data to extract valuable insights. Data visualization and report generation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-automation.svg" alt="Automation & Smart Systems" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation & Smart Systems</h4>
+
+                <p class="service-item-text">
+                  Designing and implementing smart systems to increase convenience and efficiency.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-linux.svg" alt="marketing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Linux & Open Source Expertise</h4>
+
+                <p class="service-item-text">
+                  Working with open source software and configuring Linux systems.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+          <br>
+
+
+          <br>
+
+          <!-- Languages -->
+
+          <!-- Programming Languages -->
+
+          <h3 class="h3 languages-title">Languages</h3>
+
+          <section class="languages content-card">
+
+            <div class="languages-column">
+
+              <h3 class="h3 languages-title-second">Coding Languages</h3>
+
+              <ul class="languages-list">
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Python</h5>
+                    <data value="95">95%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 95%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">HTML & CSS</h5>
+                    <data value="90">90%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 90%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">QML</h5>
+                    <data value="70">70%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 70%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">JavaScript</h5>
+                    <data value="45">45%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 45%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">C++</h5>
+                    <data value="10">10%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 10%;"></div>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <!-- Human Languages -->
+            <div class="languages-column">
+
+              <h3 class="h3 languages-title-second">Human Languages</h3>
+
+              <ul class="languages-list">
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">English</h5>
+                    <data value="Advanced">Advanced</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Turkish</h5>
+                    <data value="Advanced">Advanced</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Azerbaijani</h5>
+                    <data value="Advanced">Advanced</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+               </ul>
+
+            </div>
+
+          </section>
+
+          <br>
+
+          <!-- technologies -->
+
+          <h3 class="h3 technologies-title">Development Skills</h3>
+          <br>
+
+          <section class="technologies content-card" id="tech-skills">
+
+            <ul class="technologies-list has-scrollbar slider">
+          
+              <li class="technologies-item">
+                <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" id="1">
+              </li>         
+          
+              <li class="technologies-item">
+                <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash" id="3">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="Blender" id="4">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" id="5">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" id="6">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" id="8">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" id="10">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-icon.svg" alt="Flask" id="14">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" id="16">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" id="17">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" id="19">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" id="20">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Matlab" id="21">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" id="22">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" id="23">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" id="24">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="Qt" id="25">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" id="26">
+              </li>
+          
+              <li class="technologies-item">
+                <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="Unreal Engine" id="29">
+              </li>
+          
+            </ul>
+          
+          </section>
+          
+
+          <br>
+          <!-- Next Page -->
+          <div class="pagination-box">
+            <button class="pagination-button" data-nav-link data-target-section="projects">Next ></button>
+          </div>
+
+      </article>
+
+
+      <!--
+        - #Projects
+      -->
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">My Projects</h2>
+        </header>
+
+        <section class="projects notranslate">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Utils</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Utils</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="https://github.com/nicefaa6waa/tiktokautomated">
+                <figure class="project-img loading">
+                  <img data-src="https://github.com/nicefaa6waa/tiktokautomated/blob/master/banner.jpg?raw=true" loading="lazy">
+                </figure>
+              </a>
+              <h3 class="project-title">TiktokAutomated</h3>
+              <p class="project-category">Utils</p>
+              <p class="project-category">Solo Development</p>
+              <p class="project-development">Python | JavaScript</p>
+              <div class="project-buttons disabled">
+                <a href="https://github.com/nicefaa6waa/tiktokautomated">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="utils">
+              <a href="https://github.com/nicefaa6waa/genshin-sddm-theme">
+                <figure class="project-img loading">
+                  <img data-src="https://github.com/nicefaa6waa/genshin-sddm-theme/blob/main/preview/image1.png?raw=true" loading="lazy">
+                </figure>
+              </a>
+            <h3 class="project-title">GenshinSDMM</h3>
+              <p class="project-category">Desktop Display Manager</p>
+              <p class="project-category">Solo Development</p>
+              <p class="project-development">QT | QML | Bash | JavaScript</p>
+              <div class="project-buttons disabled">
+                <a href="https://github.com/nicefaa6waa/genshin-sddm-theme">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li>
+            
+
+            <!-- <li class="project-item active" data-filter-item data-category="">
+              <a href="">
+                <figure class="project-img loading">
+                  <img data-src="" loading="lazy">
+                </figure>
+              </a>
+            <h3 class="project-title"></h3>
+              <p class="project-category"></p>
+              <p class="project-category"></p>
+              <p class="project-development"></p>
+              <div class="project-buttons disabled">
+                <a href="">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li> -->
+          </ul>
+
+          <!-- Next Page -->
+          <div class="pagination-box">
+            <button class="pagination-button" data-nav-link data-target-section="certificates">Next ></button>
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- Certificates -->
+      <article class="certificates" data-page="certificates">
+
+        <header>
+          <h2 class="h2 article-title">My Certificates</h2>
+        </header>
+
+
+        <br><br>
+
+        <!-- Group 1 -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Harvard_University_shield.png" alt="Harvard Icon" class="scaled-icon"/>  
+            </div>
+
+            <h3 class="h3">Harvard Courses</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CS50x Harvard’s Introduction to Computer Science</h4>
+              <p class="timeline-text">
+                Harvard Online
+              </p>
+
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/CS50x.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CS50Cy Harvard’s Introduction to Cybersecurity</h4>
+              <p class="timeline-text">
+                Harvard Online
+              </p>
+
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/CS50 Cybersecurity.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+           
+          </ol>
+
+          <br><br>
+
+          <!-- Group 2 -->
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt="Google Icon" class="scaled-icon"/>  
+            </div>
+
+            <h3 class="h3">Google Courses</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">YZTA Ideathon</h4>
+              <p class="timeline-text">
+                Google Artificial Intelligence and Technology Academy
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/YZTA Ideathon.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Advanced Project Management</h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Google Project Management-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Foundations of Project Management</h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Foundations of Project Management-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Initiation </h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Project Initiation-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Execution</h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Project Execution-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Planning</h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Project Planning-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Agile Project Management</h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Agile Project Management-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Management:Capstone</h4>
+              <p class="timeline-text">
+                Coursera
+              </p>
+              <div class="certificate-container">
+                <img src="./assets/images/certificates/Capstone-1.png" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+          </ol>
+
+          <br><br> 
+          <!-- Group 3 -->
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="./assets/images/uni.png" alt="Other Icon" class="scaled-icon yellow-icon"/>  
+            </div>
+
+            <h3 class="h3">Other Courses</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                Internet and Cloud computing</h4>
+              <p class="timeline-text">
+                Udemy
+              </p>
+              <div class="certificate-container">
+                <img src="/assets/images/certificates/Internet and Cloud Computing.jpg" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                HTML and CSS Course</h4>
+              <p class="timeline-text">
+                Udemy
+              </p>
+              <div class="certificate-container">
+                <img src="/assets/images/certificates/html and css.jpg" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                Python Course</h4>
+              <p class="timeline-text">
+                Udemy
+              </p>
+              <div class="certificate-container">
+                <img src="/assets/images/certificates/Python.jpg" onclick="window.open(this.src)">
+              </div>
+
+            </li>
+
+          </ol>
+
+          <!-- Next Page -->
+          <div class="pagination-box">
+            <button class="pagination-button" data-nav-link data-target-section="contact">Next ></button>
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- CONTACT-->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- Copy Email Address -->
+        <div class="content-card">
+          <h3 class="h3 form-title" align="center">Email:</h3>
+          <div class="container">
+            <div class="email-field">
+              <div class="email-text">mammadli0088@outlook.com</div>
+              <button class="copy-button" onclick="copyEmail(event)">Copy</button>
+            </div>
+          </div>
+        </div>
+        <br>
+
+
+        <!-- Social Links -->
+        <div class="content-card">
+          <h3 class="h3 form-title" align="center">Socials:</h3>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://github.com/nicefaa6waa" class="socials-item">
+                <img src="./assets/images/socials/github.png"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/ibrahim-mammadly/" class="socials-item">
+                <img src="./assets/images/socials/linkedin.png"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/i.mammadly/" class="socials-item">
+                <img src="./assets/images/socials/instagram.png"></img>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <br>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
